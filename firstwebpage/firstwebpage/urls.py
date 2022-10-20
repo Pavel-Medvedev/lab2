@@ -27,6 +27,6 @@ urlpatterns = [
          name='login'),
     path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
     path('admin/', admin.site.urls),
-    path('flatpages/', MyViews.home, name='flatpages'),
+    path('flatpages/', MyViews.static, name='flatpages'),
     path('hello/', MyViews.home, name='hello'),
 ]

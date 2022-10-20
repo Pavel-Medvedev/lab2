@@ -64,11 +64,20 @@
     <Folder Include="firstwebpage\" />
     <Folder Include="flatpages\" />
     <Folder Include="flatpages\migrations\" />
+    <Folder Include="flatpages\static\content\" />
+    <Folder Include="flatpages\static\" />
     <Folder Include="flatpages\templates\" />
     <Folder Include="flatpages\templates\flatpages\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="flatpages\static\content\Logo_MTUCI.jpg" />
+    <Content Include="flatpages\static\index.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="flatpages\templates\flatpages\index.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="flatpages\templates\flatpages\static_handler.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="requirements.txt" />
